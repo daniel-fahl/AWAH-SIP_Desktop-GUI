@@ -1,5 +1,5 @@
 name: Build Desktop GUI
-on: [push]
+on: [push,workflow_dispatch]
 jobs:
   Linux:
     runs-on: ubuntu-18.04
